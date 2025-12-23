@@ -1,0 +1,28 @@
+{
+  "travel_journal_interact": {
+    "sounds": [
+      {
+        "name": "traveljournal:travel_journal_interact1",
+        "volume": 1.0
+      },
+      {
+        "name": "traveljournal:travel_journal_interact2",
+        "volume": 1.0
+      },
+      {
+        "name": "traveljournal:travel_journal_interact3",
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.traveljournal.player.travel_journals.interact"
+  },
+  "travel_journal_photo": {
+    "sounds": [
+      {
+        "name": "traveljournal:photo",
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.traveljournal.player.travel_journals.photo"
+  }
+}

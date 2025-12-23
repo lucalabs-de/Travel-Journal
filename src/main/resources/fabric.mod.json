@@ -1,0 +1,43 @@
+{
+	"schemaVersion": 1,
+	"id": "traveljournal",
+	"version": "${version}",
+	"name": "Travel Journal",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"lucalabs-de"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/traveljournal/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"de.lucalabs.traveljournal.TravelJournal"
+		],
+		"client": [
+			"de.lucalabs.traveljournal.TravelJournalClient"
+		],
+		"cardinal-components": [
+			"de.lucalabs.traveljournal.components.TravelJournalComponents"
+		]
+	},
+	"custom": {
+		"cardinal-components": [
+			"traveljournal:bookmark_data",
+			"traveljournal:journal_data"
+		]
+	},
+	"mixins": [
+		"travel-journal.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
